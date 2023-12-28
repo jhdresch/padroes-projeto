@@ -4,7 +4,7 @@ public class FactoryMain {
 	
 	public static AstraticTransport transporte;
 	
-	public static String tipoVeiculo = "carro";
+	public static String tipoVeiculo = "bici";
 
 	public static void main(String[] args) {
 		
@@ -17,6 +17,9 @@ public class FactoryMain {
 		case "carro":
 			transporte = new TransportCarro();
 			break;
+		case "bici":
+			transporte = new TransportBicicleta();
+			break;	
 
 		default:
 			System.out.println("Selecione um tipo de entrega");
