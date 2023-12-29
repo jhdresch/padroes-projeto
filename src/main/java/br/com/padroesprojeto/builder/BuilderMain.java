@@ -1,8 +1,10 @@
 package br.com.padroesprojeto.builder;
 
 import br.com.padroesprojeto.builder.builders.BuilderCarro;
+import br.com.padroesprojeto.builder.builders.BuilderSuperEsportivo;
 import br.com.padroesprojeto.builder.builders.TruckBuilder;
 import br.com.padroesprojeto.builder.carros.Carro;
+import br.com.padroesprojeto.builder.carros.CarroSuperSportivo;
 import br.com.padroesprojeto.builder.carros.Truck;
 import br.com.padroesprojeto.builder.diretor.DirectorBuilder;
 
@@ -27,6 +29,16 @@ public class BuilderMain {
 		Truck truck = builderTruck.getResultado();
 		
 		System.out.println(truck.getResultado());
+		
+		
+		BuilderSuperEsportivo carroEsportivo = new BuilderSuperEsportivo();
+		
+		diretor.construindoSuperEsportivo(carroEsportivo);
+		CarroSuperSportivo esportivo = carroEsportivo.getResultados();
+		System.out.println(esportivo);
+		
+		
+		
 	}
 
 }
