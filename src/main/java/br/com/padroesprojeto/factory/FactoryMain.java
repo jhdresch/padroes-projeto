@@ -1,5 +1,6 @@
 package br.com.padroesprojeto.factory;
 
+import br.com.padroesprojeto.factory.transport.AstraticTransport;
 import br.com.padroesprojeto.factory.transport.TransportBicicleta;
 import br.com.padroesprojeto.factory.transport.TransportCarro;
 import br.com.padroesprojeto.factory.transport.TransportMotocileta;

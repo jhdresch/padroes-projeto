@@ -1,4 +1,4 @@
-package br.com.padroesprojeto.factory;
+package br.com.padroesprojeto.factory.transport;
 
 import br.com.padroesprojeto.factory.veiculos.IVeiculo;
 
