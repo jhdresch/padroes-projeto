@@ -1,4 +1,4 @@
-package br.com.padroesprojeto.factory;
+package br.com.padroesprojeto.factory.veiculos;
 
 public class Motocicleta implements IVeiculo{
 	

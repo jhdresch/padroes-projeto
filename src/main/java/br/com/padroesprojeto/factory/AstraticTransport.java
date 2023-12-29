@@ -1,5 +1,7 @@
 package br.com.padroesprojeto.factory;
 
+import br.com.padroesprojeto.factory.veiculos.IVeiculo;
+
 public abstract class AstraticTransport {
 	
 	public void startTransport() {
